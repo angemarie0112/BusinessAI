@@ -1,0 +1,61 @@
+# ========================================
+# BusinessAI - Root Git Ignore
+# ========================================
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Python model caches
+.cache/
+models/cache/
+
+# Node.js dependencies and builds
+node_modules/
+dist/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Laravel dependencies
+vendor/
+
+# Laravel runtime and generated files
+businessai-api/storage/app/private/
+businessai-api/storage/app/public/
+businessai-api/storage/framework/cache/
+businessai-api/storage/framework/sessions/
+businessai-api/storage/framework/views/
+businessai-api/storage/logs/
+businessai-api/bootstrap/cache/*.php
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Local logs
+*.log
+
+# macOS
+.DS_Store
+
+# IDE settings
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
