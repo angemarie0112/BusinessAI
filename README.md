@@ -272,17 +272,37 @@ Open the application:
 
 ---
 
-## Screenshots
+## Application Screenshots
 
-Screenshots of the application will be added here.
+### 1. Dashboard
 
-Planned screenshots:
+The BusinessAI dashboard provides an overview of uploaded documents, processing status, and recent activity.
 
-- Dashboard
-- Document management
-- AI document conversations
+![BusinessAI Dashboard](docs/screenshots/dashboard.png)
 
----
+### 2. Document Management
+
+Users can upload PDF documents, search and filter files, monitor processing status, and manage their documents.
+
+![BusinessAI Document Management](docs/screenshots/documents.png)
+
+### 3. AI-Powered Document Chat
+
+BusinessAI uses Retrieval-Augmented Generation (RAG) to answer questions based on uploaded documents. Users can also ask follow-up questions and access previous conversations.
+
+![BusinessAI AI Chat](docs/screenshots/askAI.png)
+
+### 4. User Login
+
+BusinessAI provides secure user authentication through Laravel Sanctum.
+
+![BusinessAI Login](docs/screenshots/login.png)
+
+### 5. User Registration
+
+New users can create accounts and access their own documents and AI conversations.
+
+![BusinessAI Registration](docs/screenshots/register.png)
 
 ## Current Status
 
