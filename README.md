@@ -9,6 +9,9 @@ Built with Laravel, Vue.js, and Python FastAPI, BusinessAI uses Retrieval-Augmen
 The application combines modern web development with AI technologies to make document analysis more accessible and interactive.
 
 ---
+### ▶️ Watch the Full Demo
+**[Watch the Full BusinessAI Demo on YouTube](https://youtu.be/yM171eio9O0)**
+----
 
 ## Features
 
